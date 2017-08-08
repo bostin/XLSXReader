@@ -1,4 +1,4 @@
-Fork from [XLSXReader](https://github.com/gneustaetter/XLSXReader)
+Fork from [gneustaetter/XLSXReader](https://github.com/gneustaetter/XLSXReader)
 
 移入到命名空间：
 ```
