@@ -1,0 +1,35 @@
+{
+  "name": "bostin/xlsxreader",
+  "type": "library",
+  "description": "Office 2007+ xlsx文件读取",
+  "license" : "GPL-3.0",
+  "homepage": "https://github.com/Bostin/XLSXReader",
+  "keywords": [
+    "office",
+    "excel",
+    "xlsx"
+  ],
+  "require": {
+    "php": ">=5.6",
+    "ext-zip": "*",
+    "ext-simplexml": "*"
+  },
+  "authors": [
+    {
+      "name": "gneustaetter",
+      "homepage": "https://github.com/gneustaetter",
+      "role": "Developer"
+    },
+    {
+      "name": "Bostin.wang",
+      "email": "wangbo78978@126.com",
+      "homepage": "https://github.com/bostin",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bostin\\Office\\Excel\\": "src/"
+    }
+  }
+}
